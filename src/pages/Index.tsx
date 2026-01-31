@@ -49,16 +49,6 @@ const Index = () => {
             </a>
           </div>
 
-          {/* Navigation Links */}
-          <div className="mt-6 flex justify-center md:justify-start gap-2 text-base">
-            <a href="#projects" className="link-accent font-medium">
-              Projects
-            </a>
-            <span className="text-muted-foreground">-</span>
-            <a href="#blogs" className="link-accent font-medium">
-              Blogs
-            </a>
-          </div>
         </div>
       </div>
     </main>
