@@ -1,4 +1,5 @@
 import { Github, Linkedin } from "lucide-react";
+import profileImage from "@/assets/david-profile.png";
 
 const Index = () => {
   return (
@@ -7,7 +8,7 @@ const Index = () => {
         {/* Profile Image */}
         <div className="flex-1 flex justify-center md:justify-end md:pr-12">
           <img
-            src="https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg"
+            src={profileImage}
             alt="David E. Keller"
             className="w-64 h-auto md:w-80 lg:w-96 object-cover"
           />
